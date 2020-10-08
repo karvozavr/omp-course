@@ -9,7 +9,7 @@ make
 
 And run `./build/task[N]` where `N` is the task number.
 
-## Usage withought OpenMP
+## Usage withought installing OpenMP
 
 If you do not whant to install OpenMP on your machine (totally get it), you might use the docker container.
 Working directory would be mounted as a volume.
