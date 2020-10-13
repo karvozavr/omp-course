@@ -51,10 +51,6 @@ void calculate_c_data(std::vector<double> &a_data, std::vector<double> &b_data, 
  }
 
 int main(int argc, char **argv) {
-    // #pragma omp parallel
-    // {
-    //     printf("Hello, multithreaded: thread %d of %d\n", omp_get_thread_num(), omp_get_num_threads());
-    // }
     if (argc != 3) {
         return 2;
     }
