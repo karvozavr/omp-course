@@ -22,7 +22,7 @@ double calculate_sum(std::vector<double> &data) {
         sum += data[i];
     }
     return sum;
- }
+}
 
 int main(int argc, char **argv) {
     std::vector<double> data;
