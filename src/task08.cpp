@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <random>
-#include<functional>
+#include <functional>
 #include <omp.h>
 
 const size_t array_size = 100000L;
